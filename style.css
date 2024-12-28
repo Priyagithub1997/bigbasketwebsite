@@ -1,0 +1,85 @@
+
+nav{
+    border-top: 5px solid green;
+    
+}
+
+.nav1{
+    
+    margin-left: 200px;
+    margin-right: 200px;   
+    display: flex;
+    padding-top: 20px;
+ padding-bottom: 10px;
+    
+}
+.nav1 img{
+    padding-top: 0px;
+}
+
+
+.inputdiv{
+    width:500px;
+    padding: 8px;
+    margin-left: 10px;
+    border: 2px solid black;
+
+}
+.inputdiv input{
+    margin-left: 20px;
+    border: none;
+    text-align: center;
+}
+.nav1 .location{
+    padding: 10px 20px;
+    font-size: 15px;
+    margin-left: 10px;
+    border: none;
+}
+.nav1 .login{
+
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    margin-left: 10px;
+   padding: 10px;
+    
+    
+}
+.nav2{
+    display: flex;
+        
+margin-left: 200px;
+margin-right: 200px;  
+ 
+}
+.nav2 ul{
+    display: flex;
+    list-style-type:none;
+    gap:30px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 15px;
+    padding-right: 10px;
+    border-right: 1px solid black;
+}
+.nav2 > ul li:hover{
+    color: rgb(235, 23, 146);
+    text-decoration: underline;
+
+ 
+}
+.nav2 >ul li{
+    margin-left: 10px;
+}
+
+.nav2 p{
+  margin: 10px;
+  padding: 5px ;
+  background-color: lightgrey;
+  border-radius: 20px;
+}
+select {
+    background-color: green;
+    color: white;
+}
