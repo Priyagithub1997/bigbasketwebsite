@@ -3,7 +3,7 @@ nav{
     border-top: 5px solid green;
     box-shadow: 0px 2px 2px grey;
     padding-bottom: 10px;
-    
+  
 }
 
 .nav1{
@@ -13,6 +13,7 @@ nav{
     display: flex;
     padding-top: 20px;
  padding-bottom: 10px;
+ cursor: pointer;
     
 }
 .nav1 img{
@@ -22,15 +23,25 @@ nav{
 
 .inputdiv{
     width:500px;
-    padding: 8px;
+    
     margin-left: 10px;
     border: 2px solid black;
+
 
 }
 .inputdiv input{
     margin-left: 20px;
     border: none;
-    text-align: center;
+    
+    margin-top: 15px;
+    outline: none;
+    width: 400px;
+ 
+
+}
+
+.inputdiv i{
+    padding-left: 10px;
 }
 .nav1 .location{
     padding: 10px 20px;
@@ -50,7 +61,7 @@ nav{
 }
 .nav2{
     display: flex;
-        
+    cursor: pointer; 
 margin-left: 200px;
 margin-right: 200px;  
  
@@ -58,7 +69,7 @@ margin-right: 200px;
 .nav2 ul{
     display: flex;
     list-style-type:none;
-    gap:30px;
+    gap:50px;
     cursor: pointer;
     margin-left: 10px;
     font-size: 15px;
@@ -81,7 +92,123 @@ margin-right: 200px;
   background-color: lightgrey;
   border-radius: 20px;
 }
-select {
+.nav2 select {
     background-color: green;
     color: white;
+}
+.container{
+    margin: 30px auto;
+}
+.container .row{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.container .col{
+   
+    background-color: lightgray;
+    width: 120px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 10px;
+   
+    cursor: pointer;
+
+}
+.mysmartbasket{
+    background-color: rgb(245, 242, 242);
+    padding: 20px;
+    margin: 20px 200px;
+}
+.baskethead{
+    display: flex;
+    justify-content: space-between;
+}
+.basket{
+    background-color: white;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    
+}
+.viewall{
+    display: flex;
+    gap:20px;
+    cursor: pointer;
+}
+.viewall button{
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+}
+.baskets{
+    display: flex;
+}
+.basket img{
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 20px;
+
+   
+
+}
+.imgdiv{
+    position: relative;
+}
+.basket select{
+    width: 100%;
+    padding: 5px;
+}
+.basket span{
+    font-weight: bold;
+}
+.ratediv{
+    display: flex;
+    gap: 10px;
+
+}
+.btndiv{
+    display: flex;
+    justify-content: space-between;
+}
+.btndiv i{
+    border: 2px solid black;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+.btndiv button{
+    padding: 10px 55px;
+    background-color: white;
+    border: 2px solid red;
+    color: red;
+    border-radius:10px ;
+}
+.btndiv button:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+.offer{
+    background-color: green;
+    color: white;
+    width: 40%;
+    position: absolute;
+    top:-15px;
+    padding: 5px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    font-size: 15px;
+}
+@media screen  and (min-width:320px){
+
+    
+
+
 }
