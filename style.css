@@ -18,8 +18,8 @@ nav{
 
 .nav-1{
     
-    margin-left: 220px;
-    margin-right: 220px;   
+    margin-left: 200px;
+    margin-right: 200px;   
     display: flex;
    gap:20px;
    padding-top: 2px;
@@ -84,8 +84,8 @@ nav{
 .nav-2{
     display: flex;
     cursor: pointer; 
-margin-left: 220px;
-margin-right: 220px;  
+margin-left: 200px;
+margin-right: 200px;  
 gap: 20px;
 
  
@@ -153,8 +153,8 @@ gap: 20px;
 .title .title-row{
     display: flex;
     justify-content: space-between;
-    margin-left: 220px;
-    margin-right: 220px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 .title .title-col{
@@ -175,8 +175,8 @@ gap: 20px;
     background-color: rgb(245, 242, 242);
     padding: 20px;
     margin: 20px 200px;
-    margin-left: 220px;
-    margin-right: 220px;
+    margin-left: 200px;
+    margin-right: 200px;
     
 }
 .mysmartbasket-head{
