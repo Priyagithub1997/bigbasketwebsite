@@ -4,157 +4,367 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Online Grocery Shopping and Online Supermarket in India - bigbasket</title>
+ <!--    Title Icon -->
+    <link rel="icon" href="Images/titlelogo.jpg">
+  <!--   //CSS stylesheet -->
     <link href="style.css" rel="stylesheet">
+   <!--  //Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+   <!--  //Fontawesome icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--   //Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
 <body>
     <nav>
-        <div class="nav1">
+        <div class="nav-1">
             <img src="Images/logo3.jpg" height="50px" width="100px">
 
-            <div class="inputdiv">
+            <div class="nav-input">
                 <i class="fa-solid fa-magnifying-glass" style="color: #74C0FC;"></i><input type="search"
                     placeholder="search for products">
             </div>
-            <button class="location"><i class="fa-solid fa-location-crosshairs"></i> Search location</button>
-            <button class="login">Login/Sign Up</button>
-            <i class="fa-solid fa-basketball-hoop"></i>
+            <button class="nav-location"><i class="fa-solid fa-location-crosshairs"></i> Search location</button>
+            <button class="nav-login">Login/Sign Up</button>
+            <i class="fa-sharp fa-solid fa-basketball-hoop" style="color: red;"></i>
         </div>
         </div>
-        <div class="nav2">
+        <div class="nav-2">
             <select>
                 <option>Shop by <p style="font-size: 30px;">Category</p>
                 </option>
             </select>
-            <ul>
-                <li><a>Exotic Fruits and vegetables</a></li>
+            <ul class="nav2-list">
+                <li><a>Exotic Fruits & V...</a></li>
                 <li><a>Tea</a></li>
                 <li><a>Ghee</a></li>
                 <li><a>Nandini</a></li>
-                <li><a>>></a></li>
+                <li class="nav2-list-dd"><a>>></a></li>
+                <ul class="nav2-list-showdd">
+                    <li><a>Kelloggs</a></li>
+                    <li><a>Milk</a></li>
+                    <li><a>Yogurt & Shrikhand</a></li>
+                    <li><a>Chocolates</a></li>
+                    <li><a>Cup Noodles</a></li>
+                    <li><a>Hair Care</a></li>
+                    <li><a>Fresh Chicken</a></li>
+                    <li><a>Eggs</a></li>
+                    <li><a>Honey</a></li>
+                </ul>
             </ul>
+
             <p><i class="fa-solid fa-basketball-hoop"></i> smartbasket</p>
             <p><i class="fa-solid fa-badge-percent"></i> offers</p>
         </div>
     </nav>
-    <div class="container">
-        <div class="row">
-            <div class="col">
+    <section class="title">
+        <div class="title-row">
+            <div class="title-col">
                 <p>EGGS MEAT AND FISH</p>
             </div>
-            <div class="col" style="background-color: rgb(32, 32, 39);">
+            <div class="title-col" style="background-color: rgb(32, 32, 39);">
                 <p style="color: white;">NEU<span style="color: orange;">PASS</span></p>
             </div>
-            <div class="col"  style="background-color: green; color: white;">
+            <div class="title-col" style="background-color: green; color: white;">
                 <p>AYURVEDA</p>
             </div>
-            <div class="col">
+            <div class="title-col">
                 <p>BUY MORE SAVE MORE</p>
             </div>
-            <div class="col">
+            <div class="title-col">
                 <p>DEALS OF THE WEEK</p>
             </div>
-            <div class="col">
+            <div class="title-col">
                 <p>COMBO STORE</p>
             </div>
         </div>
 
-    </div>
+    </section>
 
-    <div class="mysmartbasket">
-        <div class="baskethead">
-        <h2>My Smart Basket</h2>
-        <div class="viewall">
-       <a style="text-decoration: underline;">View All</a>
-       <button><</button> 
-       <button>></button>
-    </div>
-    </div>
-       <div class="baskets">
-
-            <div class="basket">
-            <div class="imgdiv">
-                <p class="offer">20% OFF</p>
-                <img src="/Images/banana.jpg">
-            </div>
-                <p>fresho!</p>
-                <h3>Banana-Robusta</h3>
-                <select>
-                    <option>1 Kg</option>
-                </select>
-                <div class="ratediv">
-                    <h3>Rs.44</h3>
-                    <p style="text-decoration: line-through; font-size: 15px;">Rs.64.38</p>
-                </div>
-                <div class="btndiv">
-                    <i class="fa-sharp fa-regular fa-bookmark"></i>
-                    <button>Add</button>
-                </div>
-            </div>
-            <div class="basket">
-                <div class="imgdiv">
-                <p class="offer">32% OFF</p>
-                <img src="/Images/greenchilli.jpg">
-            </div>
-                <p>fresho!</p>
-                <h3>Banana-Robusta</h3>
-                <select>
-                    <option>1 Kg</option>
-                </select>
-                <div class="ratediv">
-                    <h3>Rs.44</h3>
-                    <p style="text-decoration: line-through; font-size: 15px;">Rs.64.38</p>
-                </div>
-                <div class="btndiv">
-                    <i class="fa-sharp fa-regular fa-bookmark"></i>
-                    <button>Add</button>
-                </div>
-            </div>
-            <div class="basket">
-                <div class="imgdiv">
-                <p class="offer">32% OFF</p>
-                <img src="/Images/cucumber.jpg">
-            </div>
-                <p>fresho!</p>
-                <h3>Banana-Robusta</h3>
-                <select>
-                    <option>1 Kg</option>
-                </select>
-                <div class="ratediv">
-                    <h3>Rs.44</h3>
-                    <p style="text-decoration: line-through; font-size: 15px;">Rs.64.38</p>
-                </div>
-                <div class="btndiv">
-                    <i class="fa-sharp fa-regular fa-bookmark"></i>
-                    <button>Add</button>
-                </div>
-            </div>
-            <div class="basket">
-                <div class="imgdiv">
-                <p class="offer">32% OFF</p>
-                <img src="/Images/coriender.jpg">
-            </div>
-                <p>fresho!</p>
-                <h3>Banana-Robusta</h3>
-                <select>
-                    <option>1 Kg</option>
-                </select>
-                <div class="ratediv">
-                    <h3>Rs.44</h3>
-                    <p style="text-decoration: line-through; font-size: 15px;">Rs.64.38</p>
-                </div>
-                <div class="btndiv">
-                    <i class="fa-sharp fa-regular fa-bookmark"></i>
-                    <button>Add</button>
-                </div>
+    <section class="mysmartbasket">
+        <div class="mysmartbasket-head">
+            <h2>My Smart Basket</h2>
+            <div class="viewall">
+                <a style="text-decoration: underline;">View All</a>
+                <button>
+                    < </button>
+                        <button>></button>
             </div>
         </div>
-    </div>
+
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="mysmartbasket-row">
+
+                        <div class="mysmartbasket-col">
+                            <div class="img">
+                                <p class="offer">20% OFF</p>
+                                <img src="/Images/banana.jpg">
+                            </div>
+                            <p>fresho!</p>
+                            <h3>Banana-Robusta</h3>
+                            <select>
+                                <option>1 Kg</option>
+                            </select>
+                            <div class="rate">
+                                <h3>Rs.44</h3>
+                                <p style="text-decoration: line-through; font-size: 15px;">Rs.64.38</p>
+                            </div>
+                            <div class="btn">
+                                <i class="fa-sharp fa-regular fa-bookmark"></i>
+                                <button>Add</button>
+                            </div>
+                        </div>
+                        <div class="mysmartbasket-col">
+                            <div class="img">
+                                <p class="offer">32% OFF</p>
+                                <img src="/Images/greenchilli.jpg">
+                            </div>
+                            <p>fresho!</p>
+                            <h3>Banana-Robusta</h3>
+                            <select>
+                                <option>1 Kg</option>
+                            </select>
+                            <div class="rate">
+                                <h3>Rs.44</h3>
+                                <p style="text-decoration: line-through; font-size: 15px;">Rs.64.38</p>
+                            </div>
+                            <div class="btn">
+                                <i class="fa-sharp fa-regular fa-bookmark"></i>
+                                <button>Add</button>
+                            </div>
+                        </div>
+                        <div class="mysmartbasket-col">
+                            <div class="img">
+                                <p class="offer">32% OFF</p>
+                                <img src="/Images/cucumber.jpg">
+                            </div>
+                            <p>fresho!</p>
+                            <h3>Banana-Robusta</h3>
+                            <select>
+                                <option>1 Kg</option>
+                            </select>
+                            <div class="rate">
+                                <h3>Rs.44</h3>
+                                <p style="text-decoration: line-through; font-size: 15px;">Rs.64.38</p>
+                            </div>
+                            <div class="btn">
+                                <i class="fa-sharp fa-regular fa-bookmark"></i>
+                                <button>Add</button>
+                            </div>
+                        </div>
+                        <div class="mysmartbasket-col">
+                            <div class="img">
+                                <p class="offer">32% OFF</p>
+                                <img src="/Images/coriender.jpg">
+                            </div>
+                            <p>fresho!</p>
+                            <h3>Banana-Robusta</h3>
+                            <select>
+                                <option>1 Kg</option>
+                            </select>
+                            <div class="rate">
+                                <h3>Rs.44</h3>
+                                <p style="text-decoration: line-through; font-size: 15px;">Rs.64.38</p>
+                            </div>
+                            <div class="btn">
+                                <i class="fa-sharp fa-regular fa-bookmark"></i>
+                                <button>Add</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="mysmartbasket-row">
+
+                        <div class="mysmartbasket-col">
+                            <div class="img">
+                                <p class="offer">20% OFF</p>
+                                <img src="/Images/banana.jpg">
+                            </div>
+                            <p>fresho!</p>
+                            <h3>Banana-Robusta</h3>
+                            <select>
+                                <option>1 Kg</option>
+                            </select>
+                            <div class="rate">
+                                <h3>Rs.44</h3>
+                                <p style="text-decoration: line-through; font-size: 15px;">Rs.64.38</p>
+                            </div>
+                            <div class="btn">
+                                <i class="fa-sharp fa-regular fa-bookmark"></i>
+                                <button>Add</button>
+                            </div>
+                        </div>
+                        <div class="mysmartbasket-col">
+                            <div class="img">
+                                <p class="offer">32% OFF</p>
+                                <img src="/Images/greenchilli.jpg">
+                            </div>
+                            <p>fresho!</p>
+                            <h3>Banana-Robusta</h3>
+                            <select>
+                                <option>1 Kg</option>
+                            </select>
+                            <div class="rate">
+                                <h3>Rs.44</h3>
+                                <p style="text-decoration: line-through; font-size: 15px;">Rs.64.38</p>
+                            </div>
+                            <div class="btn">
+                                <i class="fa-sharp fa-regular fa-bookmark"></i>
+                                <button>Add</button>
+                            </div>
+                        </div>
+                        <div class="mysmartbasket-col">
+                            <div class="img">
+                                <p class="offer">32% OFF</p>
+                                <img src="/Images/cucumber.jpg">
+                            </div>
+                            <p>fresho!</p>
+                            <h3>Banana-Robusta</h3>
+                            <select>
+                                <option>1 Kg</option>
+                            </select>
+                            <div class="rate">
+                                <h3>Rs.44</h3>
+                                <p style="text-decoration: line-through; font-size: 15px;">Rs.64.38</p>
+                            </div>
+                            <div class="btn">
+                                <i class="fa-sharp fa-regular fa-bookmark"></i>
+                                <button>Add</button>
+                            </div>
+                        </div>
+                        <div class="mysmartbasket-col">
+                            <div class="img">
+                                <p class="offer">32% OFF</p>
+                                <img src="/Images/coriender.jpg">
+                            </div>
+                            <p>fresho!</p>
+                            <h3>Banana-Robusta</h3>
+                            <select>
+                                <option>1 Kg</option>
+                            </select>
+                            <div class="rate">
+                                <h3>Rs.44</h3>
+                                <p style="text-decoration: line-through; font-size: 15px;">Rs.64.38</p>
+                            </div>
+                            <div class="btn">
+                                <i class="fa-sharp fa-regular fa-bookmark"></i>
+                                <button>Add</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="mysmartbasket-row">
+
+                        <div class="mysmartbasket-col">
+                            <div class="img">
+                                <p class="offer">20% OFF</p>
+                                <img src="/Images/banana.jpg">
+                            </div>
+                            <p>fresho!</p>
+                            <h3>Banana-Robusta</h3>
+                            <select>
+                                <option>1 Kg</option>
+                            </select>
+                            <div class="rate">
+                                <h3>Rs.44</h3>
+                                <p style="text-decoration: line-through; font-size: 15px;">Rs.64.38</p>
+                            </div>
+                            <div class="btn">
+                                <i class="fa-sharp fa-regular fa-bookmark"></i>
+                                <button>Add</button>
+                            </div>
+                        </div>
+                        <div class="mysmartbasket-col">
+                            <div class="img">
+                                <p class="offer">32% OFF</p>
+                                <img src="/Images/greenchilli.jpg">
+                            </div>
+                            <p>fresho!</p>
+                            <h3>Banana-Robusta</h3>
+                            <select>
+                                <option>1 Kg</option>
+                            </select>
+                            <div class="rate">
+                                <h3>Rs.44</h3>
+                                <p style="text-decoration: line-through; font-size: 15px;">Rs.64.38</p>
+                            </div>
+                            <div class="btn">
+                                <i class="fa-sharp fa-regular fa-bookmark"></i>
+                                <button>Add</button>
+                            </div>
+                        </div>
+                        <div class="mysmartbasket-col">
+                            <div class="img">
+                                <p class="offer">32% OFF</p>
+                                <img src="/Images/cucumber.jpg">
+                            </div>
+                            <p>fresho!</p>
+                            <h3>Banana-Robusta</h3>
+                            <select>
+                                <option>1 Kg</option>
+                            </select>
+                            <div class="rate">
+                                <h3>Rs.44</h3>
+                                <p style="text-decoration: line-through; font-size: 15px;">Rs.64.38</p>
+                            </div>
+                            <div class="btn">
+                                <i class="fa-sharp fa-regular fa-bookmark"></i>
+                                <button>Add</button>
+                            </div>
+                        </div>
+                        <div class="mysmartbasket-col">
+                            <div class="img">
+                                <p class="offer">32% OFF</p>
+                                <img src="/Images/coriender.jpg">
+                            </div>
+                            <p>fresho!</p>
+                            <h3>Banana-Robusta</h3>
+                            <select>
+                                <option>1 Kg</option>
+                            </select>
+                            <div class="rate">
+                                <h3>Rs.44</h3>
+                                <p style="text-decoration: line-through; font-size: 15px;">Rs.64.38</p>
+                            </div>
+                            <div class="btn">
+                                <i class="fa-sharp fa-regular fa-bookmark"></i>
+                                <button>Add</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+
+    </section>
 
 </body>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 
 </html>

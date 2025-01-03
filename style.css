@@ -1,136 +1,201 @@
 
+body{
+    
+
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+
+}
+
 nav{
     border-top: 5px solid green;
     box-shadow: 0px 2px 2px grey;
     padding-bottom: 10px;
-  
+    margin-top: 0px;
+   
 }
 
-.nav1{
+.nav-1{
     
-    margin-left: 200px;
-    margin-right: 200px;   
+    margin-left: 220px;
+    margin-right: 220px;   
     display: flex;
-    padding-top: 20px;
+   gap:20px;
+   padding-top: 2px;
  padding-bottom: 10px;
  cursor: pointer;
+ margin-top: 10px;
+ 
     
 }
-.nav1 img{
+.nav-1 img{
     padding-top: 0px;
 }
 
 
-.inputdiv{
-    width:500px;
+.nav-input{
+    width:550px;
     
     margin-left: 10px;
     border: 2px solid black;
-
+   
 
 }
-.inputdiv input{
+.nav-input{
+    height: 40px;
+    border-radius: 5px;
+}
+.nav-input input{
     margin-left: 20px;
     border: none;
-    
+    height: 15px;
     margin-top: 15px;
     outline: none;
-    width: 400px;
+    
+    border-radius: 10px;
  
 
 }
 
-.inputdiv i{
+.nav-input i{
     padding-left: 10px;
 }
-.nav1 .location{
-    padding: 10px 20px;
+.nav-1 .nav-location{
+    padding: 5px ;
     font-size: 15px;
     margin-left: 10px;
     border: none;
+    width: 150px;
+    border-radius: 5px;
 }
-.nav1 .login{
+.nav-1 .nav-login{
 
     background-color: black;
     color: white;
     font-size: 12px;
     margin-left: 10px;
-   padding: 10px;
+  border-radius: 5px;
+   width: 85px;
+   
     
     
 }
-.nav2{
+.nav-2{
     display: flex;
     cursor: pointer; 
-margin-left: 200px;
-margin-right: 200px;  
+margin-left: 220px;
+margin-right: 220px;  
+gap: 20px;
+
  
 }
-.nav2 ul{
+.nav-2 .nav2-list{
     display: flex;
     list-style-type:none;
-    gap:50px;
+ gap:60px;
+    justify-content: space-around;
     cursor: pointer;
-    margin-left: 10px;
-    font-size: 15px;
-    padding-right: 10px;
+    align-items: center;
+   
+    font-size: 17px;
+  padding-right: 50px;
     border-right: 1px solid black;
+ 
 }
-.nav2 > ul li:hover{
+.nav-2 > .nav2-list li:hover{
     color: rgb(235, 23, 146);
     text-decoration: underline;
 
  
 }
-.nav2 >ul li{
+.nav-2 >.nav2-list li{
     margin-left: 10px;
 }
+.nav2-list{
+    position: relative;
+}
+.nav2-list-showdd{
+    z-index: 1;
+    position: absolute;
+    right: -120px;
+    top:50px;
+    list-style-type: none;
+    background-color: white;
+   padding-left: 0px;
+   box-shadow: 2px 2px 2px 2px grey;
+   padding-right: 40px;
+  display: none;
 
-.nav2 p{
+
+}
+.nav2-list-dd:focus .nav2-list-showdd{
+    display: block;
+
+}
+.nav2-list-showdd li{
+    padding: 15px;
+    padding-left: 0px;
+}
+.nav-2 p{
   margin: 10px;
   padding: 5px ;
   background-color: lightgrey;
   border-radius: 20px;
 }
-.nav2 select {
+.nav-2 select {
     background-color: green;
     color: white;
 }
-.container{
+.title{
     margin: 30px auto;
 }
-.container .row{
+.title .title-row{
     display: flex;
     justify-content: space-between;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 220px;
+    margin-right: 220px;
 }
 
-.container .col{
+.title .title-col{
    
     background-color: lightgray;
-    width: 120px;
+    width: 130px;
+    height: 50px;
     text-align: center;
     font-size: 15px;
     border-radius: 10px;
-   
+   padding-left: 10px;
     cursor: pointer;
+    padding-right: 10px;
+    font-weight: bold;
 
 }
 .mysmartbasket{
     background-color: rgb(245, 242, 242);
     padding: 20px;
     margin: 20px 200px;
+    margin-left: 220px;
+    margin-right: 220px;
+    
 }
-.baskethead{
+.mysmartbasket-head{
     display: flex;
     justify-content: space-between;
 }
-.basket{
-    background-color: white;
+.mysmartbasket-row{
+    
     width: 200px;
-    margin: 10px;
+  gap: 20px;
     padding: 10px;
+    display: flex;
+    
+}
+.mysmartbasket-col{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 2px grey;
     
 }
 .viewall{
@@ -143,12 +208,10 @@ margin-right: 200px;
     width: 50px;
     font-size: 20px;
 }
-.baskets{
-    display: flex;
-}
-.basket img{
-    height: 150px;
-    width: 150px;
+
+.mysmartbasket-col img{
+    height: 180px;
+    width: 180px;
     border: 1px solid black;
     padding: 15px;
     border-radius: 20px;
@@ -156,52 +219,52 @@ margin-right: 200px;
    
 
 }
-.imgdiv{
+.mysmartbasket-col .img{
     position: relative;
 }
-.basket select{
+.mysmartbasket-col select{
     width: 100%;
     padding: 5px;
 }
-.basket span{
+.mysmartbasket-col span{
     font-weight: bold;
 }
-.ratediv{
+.mysmartbasket-col .rate{
     display: flex;
     gap: 10px;
 
 }
-.btndiv{
+.mysmartbasket-col .btn{
     display: flex;
     justify-content: space-between;
 }
-.btndiv i{
+.mysmartbasket-col > .btn i{
     border: 2px solid black;
     padding: 10px;
     cursor: pointer;
     border-radius: 10px;
 
 }
-.btndiv button{
+.mysmartbasket-col >.btn button{
     padding: 10px 55px;
     background-color: white;
     border: 2px solid red;
     color: red;
     border-radius:10px ;
 }
-.btndiv button:hover{
+.mysmartbasket-col >.btn button:hover{
     background-color: red;
     color: white;
     cursor: pointer;
 }
-.offer{
+.mysmartbasket-col .offer{
     background-color: green;
     color: white;
     width: 40%;
     position: absolute;
     top:-15px;
     padding: 5px;
-    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
     border-bottom-right-radius: 15px;
     border-top-left-radius: 15px;
     font-size: 15px;
