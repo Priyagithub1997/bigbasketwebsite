@@ -1,6 +1,5 @@
+body {
 
-body{
-    
 
     font-family: "Poppins", serif;
     font-weight: 500;
@@ -8,270 +7,422 @@ body{
 
 }
 
-nav{
+nav {
     border-top: 5px solid green;
     box-shadow: 0px 2px 2px grey;
     padding-bottom: 10px;
     margin-top: 0px;
-   
+
 }
 
-.nav-1{
-    
+.nav-1 {
+
     margin-left: 200px;
-    margin-right: 200px;   
+    margin-right: 200px;
     display: flex;
-   gap:20px;
-   padding-top: 2px;
- padding-bottom: 10px;
- cursor: pointer;
- margin-top: 10px;
- 
-    
+    gap: 20px;
+    padding-top: 2px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+
+
 }
-.nav-1 img{
+
+.nav-1 img {
     padding-top: 0px;
 }
 
 
-.nav-input{
-    width:550px;
-    
+.nav-input {
+    width: 550px;
+
     margin-left: 10px;
     border: 2px solid black;
-   
+
 
 }
-.nav-input{
+
+.nav-input {
     height: 40px;
     border-radius: 5px;
 }
-.nav-input input{
+
+.nav-input input {
     margin-left: 20px;
     border: none;
     height: 15px;
     margin-top: 15px;
     outline: none;
-    
+
     border-radius: 10px;
- 
+
 
 }
 
-.nav-input i{
+.nav-input i {
     padding-left: 10px;
 }
-.nav-1 .nav-location{
-    padding: 5px ;
+
+.nav-1 .nav-location {
+    padding: 5px;
     font-size: 15px;
     margin-left: 10px;
     border: none;
     width: 150px;
     border-radius: 5px;
 }
-.nav-1 .nav-login{
+
+.nav-1 .nav-login {
 
     background-color: black;
     color: white;
     font-size: 12px;
     margin-left: 10px;
-  border-radius: 5px;
-   width: 85px;
-   
-    
-    
-}
-.nav-2{
-    display: flex;
-    cursor: pointer; 
-margin-left: 200px;
-margin-right: 200px;  
-gap: 20px;
+    border-radius: 5px;
+    width: 85px;
 
- 
+
+
 }
-.nav-2 .nav2-list{
+.nav-1 img{
+    margin-top: 10px;
+}
+
+.nav-2 {
     display: flex;
-    list-style-type:none;
- gap:60px;
-    justify-content: space-around;
+    cursor: pointer;
+    margin-left: 200px;
+    margin-right: 200px;
+    gap: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+
+}
+
+.shop {
+    background-color: green;
+    color: white;
+    width: 100px;
+    padding: 10px;
+    font-size: 12px;
+ border-radius: 10px;
+ margin: 0px;
+
+
+}
+
+.shopcategory {
+    font-size: 18px;
+
+}
+
+.nav-2 .nav2-list {
+    display: flex;
+    list-style-type: none;
+    gap: 60px;
+    justify-content: space-between;
     cursor: pointer;
     align-items: center;
-   
+
     font-size: 17px;
-  padding-right: 50px;
-    border-right: 1px solid black;
- 
+    padding-right: 50px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+
 }
-.nav-2 > .nav2-list li:hover{
+
+.nav-2>.nav2-list li:hover {
     color: rgb(235, 23, 146);
     text-decoration: underline;
 
- 
+
 }
-.nav-2 >.nav2-list li{
+
+.nav-2>.nav2-list li {
     margin-left: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
-.nav2-list{
+
+.nav2-list-dd {
     position: relative;
+    padding-top: 20px;
+    border-right: 2px solid black;
+    padding-right: 40px;
+
 }
-.nav2-list-showdd{
+
+.nav2-list-showdd {
     z-index: 1;
     position: absolute;
-    right: -120px;
-    top:50px;
+    font-size: 18px;
+    top: 47px;
     list-style-type: none;
     background-color: white;
-   padding-left: 0px;
-   box-shadow: 2px 2px 2px 2px grey;
-   padding-right: 40px;
-  display: none;
+    padding-left: 10px;
+    box-shadow: 2px 10px 10px 2px grey;
+    padding-right: 2px;
+
+    display: none;
+
 
 
 }
-.nav2-list-dd:focus .nav2-list-showdd{
+
+.nav2-list-showdd li {
+
+    border-right: 5px outset grey;
+    margin-bottom: 10px;
+    padding-right: 500px;
+
+    width: 200px;
+}
+
+.nav2-list-showdd li:hover {
+    color: rgb(235, 23, 146);
+    text-decoration: underline;
+}
+
+
+
+.nav2-list-dd:hover .nav2-list-showdd {
     display: block;
 
 }
-.nav2-list-showdd li{
+
+
+
+.nav2-list-showdd li {
     padding: 15px;
     padding-left: 0px;
 }
-.nav-2 p{
-  margin: 10px;
-  padding: 5px ;
-  background-color: lightgrey;
-  border-radius: 20px;
+
+.nav-2 p {
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 5px;
+    background-color: lightgrey;
+    border-radius: 20px;
+   
 }
-.nav-2 select {
-    background-color: green;
-    color: white;
-}
-.title{
+
+.title {
     margin: 30px auto;
 }
-.title .title-row{
+
+.title .title-row {
     display: flex;
     justify-content: space-between;
     margin-left: 200px;
     margin-right: 200px;
 }
 
-.title .title-col{
-   
+.title .title-col {
+
     background-color: lightgray;
     width: 130px;
     height: 50px;
     text-align: center;
     font-size: 15px;
     border-radius: 10px;
-   padding-left: 10px;
+    padding-left: 10px;
     cursor: pointer;
     padding-right: 10px;
     font-weight: bold;
 
 }
-.mysmartbasket{
+
+.mysmartbasket {
     background-color: rgb(245, 242, 242);
     padding: 20px;
     margin: 20px 200px;
     margin-left: 200px;
     margin-right: 200px;
-    
+
 }
-.mysmartbasket-head{
+
+.mysmartbasket-head {
     display: flex;
     justify-content: space-between;
 }
-.mysmartbasket-row{
-    
-    width: 200px;
-  gap: 20px;
+
+.mysmartbasket-rows{
+    display: flex;
+    overflow: hidden;
+}
+
+.mysmartbasket-row {
+
+    margin-left: 50px;
+    gap: 10px;
     padding: 10px;
     display: flex;
-    
+
+
 }
-.mysmartbasket-col{
+
+.mysmartbasket-col {
     background-color: white;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 2px 2px grey;
-    
+    width: 230px;
+
 }
-.viewall{
+
+.viewall {
     display: flex;
-    gap:20px;
+    gap: 20px;
     cursor: pointer;
 }
-.viewall button{
+
+.viewall button {
     height: 50px;
     width: 50px;
     font-size: 20px;
 }
 
-.mysmartbasket-col img{
+.mysmartbasket-col img {
     height: 180px;
     width: 180px;
     border: 1px solid black;
     padding: 15px;
     border-radius: 20px;
 
-   
+
 
 }
-.mysmartbasket-col .img{
+
+.mysmartbasket-col .img {
     position: relative;
 }
-.mysmartbasket-col select{
+
+.mysmartbasket-col h5 {
+    margin-bottom: 60px;
+
+}
+
+.mysmartbasket-col select {
     width: 100%;
     padding: 5px;
+    margin-bottom: 10px;
+
 }
-.mysmartbasket-col span{
+
+.mysmartbasket-col span {
     font-weight: bold;
 }
-.mysmartbasket-col .rate{
+
+.mysmartbasket-col .rate {
     display: flex;
     gap: 10px;
 
 }
-.mysmartbasket-col .btn{
+
+.mysmartbasket-col .btn {
     display: flex;
     justify-content: space-between;
+    gap: 10px;
 }
-.mysmartbasket-col > .btn i{
+
+.mysmartbasket-col>.btn i {
     border: 2px solid black;
     padding: 10px;
     cursor: pointer;
     border-radius: 10px;
 
 }
-.mysmartbasket-col >.btn button{
+
+.mysmartbasket-col>.btn button {
     padding: 10px 55px;
     background-color: white;
     border: 2px solid red;
     color: red;
-    border-radius:10px ;
+    border-radius: 10px;
 }
-.mysmartbasket-col >.btn button:hover{
+
+.mysmartbasket-col>.btn button:hover {
     background-color: red;
     color: white;
     cursor: pointer;
 }
-.mysmartbasket-col .offer{
+
+.mysmartbasket-col .offer {
     background-color: green;
     color: white;
     width: 40%;
     position: absolute;
-    top:-15px;
+    top: -3px;
     padding: 5px;
     border-top-left-radius: 15px;
     border-bottom-right-radius: 15px;
     border-top-left-radius: 15px;
     font-size: 15px;
 }
-@media screen  and (min-width:320px){
 
-    
+.nextbtn,.prevbtn{
+    background-color: lightgray;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 30px;
+}
 
+.nextbtn,.prevbtn:hover{
+    background-color: white;
+}
+.topofferscontainer{
+    display: flex;
+  margin-left: 200px;
+  margin-right: 200px;
+    gap: 30px;
 
 }
+.topoffers{
+   
+   
+    position: relative;
+}
+.topoffers1{
+    background-color: red;
+    box-shadow: 2px 2px 2px grey;
+    width: 250px;
+   padding: 30px;
+   font-size: 20px;
+   font-weight: bold;
+   border-radius: 10px;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+
+}
+
+.topoffers2{
+    background-color: white;
+    box-shadow: 2px 2px 2px grey;
+    width: 250px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: absolute;
+    top:60px;
+    left: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+    padding-left: 22px;
+}
+
+.topoffers2,.topoffers1:hover{
+    box-shadow: 5px 5px 5px grey;
+}
+@media screen and (min-width:320px) {}
