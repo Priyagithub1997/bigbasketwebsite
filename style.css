@@ -31,6 +31,7 @@ nav {
 
 .nav-1 img {
     padding-top: 0px;
+    border-radius: 10px;
 }
 
 
@@ -123,7 +124,7 @@ nav {
 .nav-2 .nav2-list {
     display: flex;
     list-style-type: none;
-    gap: 60px;
+    gap: 90px;
     justify-content: space-between;
     cursor: pointer;
     align-items: center;
@@ -147,10 +148,10 @@ nav {
 
 .nav-2>.nav2-list li {
     margin-left: 10px;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
+   
 }
 
 .nav2-list-dd {
@@ -209,7 +210,7 @@ nav {
 .nav-2 p {
     margin-right: 20px;
     margin-left: 20px;
-    padding: 5px;
+
     background-color: lightgrey;
     border-radius: 20px;
    
@@ -244,7 +245,7 @@ nav {
 .mysmartbasket {
     background-color: rgb(245, 242, 242);
     padding: 20px;
-    margin: 20px 200px;
+   
     margin-left: 200px;
     margin-right: 200px;
 
@@ -258,12 +259,13 @@ nav {
 .mysmartbasket-rows{
     display: flex;
     overflow: hidden;
+
 }
 
 .mysmartbasket-row {
 
-    margin-left: 50px;
-    gap: 10px;
+   
+    gap: 40px;
     padding: 10px;
     display: flex;
 
