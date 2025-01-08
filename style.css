@@ -1,9 +1,9 @@
 body {
 
-
+/* 
     font-family: "Poppins", serif;
     font-weight: 500;
-    font-style: normal;
+    font-style: normal; */
 margin-left: 200px;
 margin-right: 200px;
 }
@@ -11,10 +11,10 @@ margin-right: 200px;
 nav {
     border-top: 5px solid green;
     box-shadow: 0px 2px 2px grey;
-    padding-top: 10px;
-  position: fixed;
+   padding-top:5px ;
+ 
     background-color: white;
-    z-index: 1;
+  
 
 }
 
@@ -23,7 +23,7 @@ nav {
     margin-left: 200px;
     margin-right: 200px;
     display: flex;
-    gap: 30px;
+    gap: 40px;
     padding: 0px;
     cursor: pointer;
 
