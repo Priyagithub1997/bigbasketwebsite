@@ -7,6 +7,7 @@ var nextbestsellers=document.getElementById("nextbestsellers");
 var bestsellers1=document.getElementById("bestsellers-row-1");
 var bestsellers2=document.getElementById("bestsellers-row-2");
 
+
 next.addEventListener("click",function(){
    
     mysmartbasket1.style.display="none";
