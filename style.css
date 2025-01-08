@@ -10,8 +10,7 @@ body {
 nav {
     border-top: 5px solid green;
     box-shadow: 0px 2px 2px grey;
-    padding-bottom: 10px;
-    margin-top: 0px;
+    padding-top: 10px;
 
 }
 
@@ -20,43 +19,40 @@ nav {
     margin-left: 200px;
     margin-right: 200px;
     display: flex;
-    gap: 20px;
-    padding-top: 2px;
-    padding-bottom: 10px;
+    gap: 30px;
+    padding: 0px;
     cursor: pointer;
-    margin-top: 10px;
+
 
 
 }
 
 .nav-1 img {
-    padding-top: 0px;
+
     border-radius: 10px;
 }
 
 
 .nav-input {
     width: 550px;
-
-    margin-left: 10px;
-    border: 2px solid black;
-
-
-}
-
-.nav-input {
     height: 40px;
     border-radius: 5px;
+
+    border: 2px solid lightgrey;
+
+
 }
 
 .nav-input input {
     margin-left: 20px;
     border: none;
-    height: 15px;
-    margin-top: 15px;
+
+
     outline: none;
 
     border-radius: 10px;
+
+    width: 500px;
 
 
 }
@@ -66,12 +62,18 @@ nav {
 }
 
 .nav-1 .nav-location {
-    padding: 5px;
-    font-size: 15px;
-    margin-left: 10px;
+    background-color: lightgray;
+    font-size: 13px;
+    padding-top: 10px;
     border: none;
-    width: 150px;
+    margin-top: 0px;
     border-radius: 5px;
+    height: 40px;
+    padding-bottom: 10px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+
 }
 
 .nav-1 .nav-login {
@@ -79,16 +81,21 @@ nav {
     background-color: black;
     color: white;
     font-size: 12px;
-    margin-left: 10px;
+    width: 100px;
     border-radius: 5px;
-    width: 85px;
+    padding-bottom: 0px;
+    border: none;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 0px;
+
+
 
 
 
 }
-.nav-1 img{
-    margin-top: 10px;
-}
+
 
 .nav-2 {
     display: flex;
@@ -96,10 +103,7 @@ nav {
     margin-left: 200px;
     margin-right: 200px;
     gap: 20px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
 
 
 }
@@ -107,11 +111,12 @@ nav {
 .shop {
     background-color: green;
     color: white;
-    width: 100px;
+    width: 150px;
     padding: 10px;
     font-size: 12px;
- border-radius: 10px;
- margin: 0px;
+    border-radius: 10px;
+    margin: 0px;
+    height: 50px;
 
 
 }
@@ -124,17 +129,13 @@ nav {
 .nav-2 .nav2-list {
     display: flex;
     list-style-type: none;
-    gap: 90px;
-    justify-content: space-between;
+
+    justify-content: space-around;
     cursor: pointer;
     align-items: center;
-
+    width: 600px;
     font-size: 17px;
-    padding-right: 50px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+
 
 
 }
@@ -151,14 +152,16 @@ nav {
     padding: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
-   
+
+
 }
 
 .nav2-list-dd {
     position: relative;
-    padding-top: 20px;
-    border-right: 2px solid black;
+    padding-top: 10px;
+    border-right: 1px solid grey;
     padding-right: 40px;
+
 
 }
 
@@ -207,14 +210,20 @@ nav {
     padding-left: 0px;
 }
 
-.nav-2 p {
-    margin-right: 20px;
-    margin-left: 20px;
 
-    background-color: lightgrey;
-    border-radius: 20px;
-   
+.smartoffers {
+    display: flex;
+    gap: 60px;
 }
+
+.smartbasket,
+.offers {
+    background-color: lightgray;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+
 
 .title {
     margin: 30px auto;
@@ -245,7 +254,7 @@ nav {
 .mysmartbasket {
     background-color: rgb(245, 242, 242);
     padding: 20px;
-   
+
     margin-left: 200px;
     margin-right: 200px;
 
@@ -256,7 +265,7 @@ nav {
     justify-content: space-between;
 }
 
-.mysmartbasket-rows{
+.mysmartbasket-rows {
     display: flex;
     overflow: hidden;
 
@@ -264,8 +273,8 @@ nav {
 
 .mysmartbasket-row {
 
-   
-    gap: 40px;
+
+    gap: 30px;
     padding: 10px;
     display: flex;
 
@@ -371,49 +380,54 @@ nav {
     font-size: 15px;
 }
 
-.nextbtn,.prevbtn{
+.nextbtn,
+.prevbtn {
     background-color: lightgray;
     border-radius: 10px;
     font-weight: bold;
     font-size: 30px;
 }
 
-.nextbtn,.prevbtn:hover{
+.nextbtn,
+.prevbtn:hover {
     background-color: white;
 }
-.topofferscontainer{
+
+.topofferscontainer {
     display: flex;
-  margin-left: 200px;
-  margin-right: 200px;
+    margin-left: 200px;
+    margin-right: 200px;
     gap: 30px;
 
 }
-.topoffers{
-   
-   
+
+.topoffers {
+
+
     position: relative;
 }
-.topoffers1{
+
+.topoffers1 {
     background-color: red;
     box-shadow: 2px 2px 2px grey;
     width: 250px;
-   padding: 30px;
-   font-size: 20px;
-   font-weight: bold;
-   border-radius: 10px;
-   border-top-left-radius: 10px;
-   border-top-right-radius: 10px;
+    padding: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 
 }
 
-.topoffers2{
+.topoffers2 {
     background-color: white;
     box-shadow: 2px 2px 2px grey;
     width: 250px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     position: absolute;
-    top:60px;
+    top: 60px;
     left: 5px;
     font-size: 20px;
     font-weight: bold;
@@ -424,6 +438,149 @@ nav {
     padding-left: 22px;
 }
 
-.topoffers2,.topoffers1:hover{
+.fruitsandveg {
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.fruitsandveg-offers {
+    display: flex;
+    gap: 25px;
+    padding-top: 20px;
+
+    padding-bottom: 2px;
+
+}
+
+.fruitsandveg-offer {
+    box-shadow: 2px 2px 2px 2px grey;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    width: 250px;
+
+}
+
+.fruitsandveg-offer img {
+    height: 150px;
+    width: 230px;
+    border: 0.5px solid lightgray;
+    border-radius: 10px;
+}
+
+.fruitsandveg-offer h5 {
+    border-left: 5px solid red;
+    padding-left: 10px;
+}
+
+.fruitsandveg-offer h5,
+p {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.fruitsandveg-offer:hover {
+    box-shadow: 5px 5px 5px 5px grey;
+}
+
+.topoffers2,
+.topoffers1:hover {
     box-shadow: 5px 5px 5px grey;
+}
+
+.dailystaples {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+}
+
+.staples-offers {
+    display: flex;
+    gap: 10px;
+
+
+    padding: 20px;
+
+
+}
+
+.staples-offer img {
+    width: 150px;
+    height: 100px;
+
+}
+
+.staples-offer {
+    border-radius: 10px;
+    width: 180px;
+    height: 160px;
+    box-shadow: 2px 2px 2px 2px grey;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+
+.staples-offer p {
+    font-size: 13px;
+    margin-bottom: 0px;
+}
+
+.staples-offer:hover {
+    box-shadow: 5px 5px 5px 5px grey;
+}
+
+
+
+.beverages {
+    margin-top: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.beverages-offers {
+    display: flex;
+    gap: 15px;
+    padding-top: 20px;
+
+    padding-bottom: 2px;
+
+}
+
+.beverages-offer {
+    box-shadow: 2px 2px 2px 2px grey;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    width: 180px;
+
+}
+
+.beverages-offer img {
+    height: 100px;
+    width: 150px;
+    border: 0.5px solid lightgray;
+    border-radius: 10px;
+}
+
+.beverages-offer h5 {
+    border-left: 5px solid red;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.beverages-offer h5,
+p {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.beverages-offer p{
+    font-size: 10px;
+}
+.beverages-offer:hover {
+    box-shadow: 5px 5px 5px 5px grey;
 }
