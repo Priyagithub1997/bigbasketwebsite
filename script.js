@@ -9,18 +9,20 @@ var bestsellers2=document.getElementById("bestsellers-row-2");
 
 
 next.addEventListener("click",function(){
-   
+ 
     mysmartbasket1.style.display="none";
     mysmartbasket2.style.display="block";
     mysmartbasket2.style.display="flex";
+
 });
 
 
 prev.addEventListener("click",function(){
-    
+
     mysmartbasket2.style.display="none";
     mysmartbasket1.style.display="block";
     mysmartbasket1.style.display="flex";
+   
   });
 
   nextbestsellers.addEventListener("click",function(){

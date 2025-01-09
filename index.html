@@ -11,7 +11,7 @@
     <link href="style.css" rel="stylesheet">
     <!--  //Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
@@ -22,16 +22,20 @@
     <!--   //Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-</head>
+      <!--  AOS Animtion -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    </head>
 
 <body>
+
     <nav>
         <div class="nav-1">
             <img src="Images/logo3.jpg" height="50px" width="100px">
 
             <div class="nav-input">
-                <i class="fa-solid fa-magnifying-glass" style="color: #74C0FC;"></i><input type="search"
-                    placeholder="search for products">
+                <i class="fa-solid fa-magnifying-glass" style="color: #74C0FC;"></i>
+                <input type="search" placeholder="search for products">
             </div>
             <p class="nav-location"><i class="fa-solid fa-location-crosshairs"></i> Select location</p>
             <p class="nav-login">Login/Sign Up</p>
@@ -39,19 +43,19 @@
         </div>
         </div>
         <div class="nav-2">
-        
-               
-                <h5 class="shop">Shop by  <span class="shopcategory">Category^</span>
-            </h5>     
-                        
-          
+
+
+            <h5 class="shop">Shop by <span class="shopcategory">Category^</span>
+            </h5>
+
+
             <ul class="nav2-list">
                 <li><a>Exotic Fruits & V...</a></li>
                 <li><a>Tea</a></li>
                 <li><a>Ghee</a></li>
                 <li><a>Nandini</a></li>
             </ul>
-                <div  class="nav2-list-dd"> >>
+            <div class="nav2-list-dd"> >>
                 <ul class="nav2-list-showdd">
                     <li><a>Kelloggs</a></li>
                     <li><a>Milk</a></li>
@@ -64,13 +68,24 @@
                     <li><a>Honey</a></li>
                 </ul>
             </div>
-           
-      <div class="smartoffers">
-            <p class="smartbasket"><i class="fa-solid fa-basketball-hoop"></i> smartbasket</p>
-            <p class="offers"><i class="fa-solid fa-badge-percent"></i> offers</p>
+
+            <div class="smartoffers">
+                <p class="smartbasket"><i class="fa-solid fa-basketball-hoop"></i> smartbasket</p>
+                <p class="offers"><i class="fa-solid fa-badge-percent"></i> offers</p>
+            </div>
         </div>
-    </div>
     </nav>
+
+    <!-- <div class="newnav">
+        <img src="./Images/titlelogo.jpg">
+        <h5 class="shop">Shop by  <span class="shopcategory">Category^</span>
+        </h5> 
+        <div class="divinput">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="search">
+        </div>
+        <div class="selectlocation">Select Location</div>
+    </div> -->
     <section class="title">
         <div class="title-row">
             <div class="title-col">
@@ -100,177 +115,178 @@
             <h2>My Smart Basket</h2>
             <div class="viewall">
                 <a style="text-decoration: underline;">View All</a>
-                <button class="prevbtn" id="prev"><</button>
-                <button class="nextbtn" id="next">></button>
+                <button class="prevbtn" id="prev">
+                    < </button>
+                        <button class="nextbtn" id="next">></button>
             </div>
-           
+
         </div>
         <div class="mysmartbasket-rows">
 
-        <div class="mysmartbasket-row" id="mysmartbasket-row-1">
+            <div class="mysmartbasket-row"  id="mysmartbasket-row-1">
 
-            <div class="mysmartbasket-col">
-                <div class="img">
-                    <p class="offer">20% OFF</p>
-                    <img src="./Images/banana.jpg">
+                <div class="mysmartbasket-col">
+                    <div class="img">
+                        <p class="offer">20% OFF</p>
+                        <img src="./Images/banana.jpg">
+                    </div>
+                    <p>fresho!</p>
+                    <h5>Banana-Robusta</h5>
+                    <select>
+                        <option>1 Kg</option>
+                    </select>
+                    <div class="rate">
+                        <h5>Rs.44</h5>
+                        <p style="text-decoration: line-through; font-size: 13px;">Rs.64.38</p>
+                    </div>
+                    <div class="btn">
+                        <i class="fa-sharp fa-regular fa-bookmark"></i>
+                        <button>Add</button>
+                    </div>
                 </div>
-                <p>fresho!</p>
-                <h5>Banana-Robusta</h5>
-                <select>
-                    <option>1 Kg</option>
-                </select>
-                <div class="rate">
-                    <h5>Rs.44</h5>
-                    <p style="text-decoration: line-through; font-size: 13px;">Rs.64.38</p>
+                <div class="mysmartbasket-col">
+                    <div class="img">
+                        <p class="offer">32% OFF</p>
+                        <img src="./Images/greenchilli.jpg">
+                    </div>
+                    <p>fresho!</p>
+                    <h5>Green Chilli</h5>
+                    <select>
+                        <option>1 Kg</option>
+                    </select>
+                    <div class="rate">
+                        <h5>Rs.93</h5>
+                        <p style="text-decoration: line-through; font-size: 13px;">Rs.116.38</p>
+                    </div>
+                    <div class="btn">
+                        <i class="fa-sharp fa-regular fa-bookmark"></i>
+                        <button>Add</button>
+                    </div>
                 </div>
-                <div class="btn">
-                    <i class="fa-sharp fa-regular fa-bookmark"></i>
-                    <button>Add</button>
+                <div class="mysmartbasket-col">
+                    <div class="img">
+                        <p class="offer">32% OFF</p>
+                        <img src="./Images/cucumber.jpg">
+                    </div>
+                    <p>fresho!</p>
+                    <h5>Cucumber</h5>
+                    <select>
+                        <option>1 Kg</option>
+                    </select>
+                    <div class="rate">
+                        <h5>Rs.44</h5>
+                        <p style="text-decoration: line-through; font-size: 13px;">Rs.64.38</p>
+                    </div>
+                    <div class="btn">
+                        <i class="fa-sharp fa-regular fa-bookmark"></i>
+                        <button>Add</button>
+                    </div>
+                </div>
+                <div class="mysmartbasket-col">
+                    <div class="img">
+                        <p class="offer">32% OFF</p>
+                        <img src="./Images/coriender.jpg">
+                    </div>
+                    <p>fresho!</p>
+                    <h5>Coriender Leaves</h5>
+                    <select>
+                        <option>1 Kg</option>
+                    </select>
+                    <div class="rate">
+                        <h5>Rs.44</h5>
+                        <p style="text-decoration: line-through; font-size: 13px;">Rs.64.38</p>
+                    </div>
+                    <div class="btn">
+                        <i class="fa-sharp fa-regular fa-bookmark"></i>
+                        <button>Add</button>
+                    </div>
                 </div>
             </div>
-            <div class="mysmartbasket-col">
-                <div class="img">
-                    <p class="offer">32% OFF</p>
-                    <img src="./Images/greenchilli.jpg">
+
+
+            <div class="mysmartbasket-row" id="mysmartbasket-row-2">
+
+                <div class="mysmartbasket-col">
+                    <div class="img">
+                        <p class="offer">20% OFF</p>
+                        <img src="./Images/garlic.jpg">
+                    </div>
+                    <p>fresho!</p>
+                    <h5>garlic</h5>
+                    <select>
+                        <option>1 Kg</option>
+                    </select>
+                    <div class="rate">
+                        <h5>Rs.44</h5>
+                        <p style="text-decoration: line-through; font-size: 13px;">Rs.64.38</p>
+                    </div>
+                    <div class="btn">
+                        <i class="fa-sharp fa-regular fa-bookmark"></i>
+                        <button>Add</button>
+                    </div>
                 </div>
-                <p>fresho!</p>
-                <h5>Green Chilli</h5>
-                <select>
-                    <option>1 Kg</option>
-                </select>
-                <div class="rate">
-                    <h5>Rs.93</h5>
-                    <p style="text-decoration: line-through; font-size: 13px;">Rs.116.38</p>
+                <div class="mysmartbasket-col">
+                    <div class="img">
+                        <p class="offer">32% OFF</p>
+                        <img src="./Images/ginger.jpg">
+                    </div>
+                    <p>fresho!</p>
+                    <h5>Ginger</h5>
+                    <select>
+                        <option>1 Kg</option>
+                    </select>
+                    <div class="rate">
+                        <h5>Rs.93</h5>
+                        <p style="text-decoration: line-through; font-size: 13px;">Rs.116.38</p>
+                    </div>
+                    <div class="btn">
+                        <i class="fa-sharp fa-regular fa-bookmark"></i>
+                        <button>Add</button>
+                    </div>
                 </div>
-                <div class="btn">
-                    <i class="fa-sharp fa-regular fa-bookmark"></i>
-                    <button>Add</button>
+                <div class="mysmartbasket-col">
+                    <div class="img">
+                        <p class="offer">32% OFF</p>
+                        <img src="./Images/lemon.jpg">
+                    </div>
+                    <p>fresho!</p>
+                    <h5>Lemon</h5>
+                    <select>
+                        <option>1 Kg</option>
+                    </select>
+                    <div class="rate">
+                        <h5>Rs.44</h5>
+                        <p style="text-decoration: line-through; font-size: 13px;">Rs.64.38</p>
+                    </div>
+                    <div class="btn">
+                        <i class="fa-sharp fa-regular fa-bookmark"></i>
+                        <button>Add</button>
+                    </div>
                 </div>
-            </div>
-            <div class="mysmartbasket-col">
-                <div class="img">
-                    <p class="offer">32% OFF</p>
-                    <img src="./Images/cucumber.jpg">
-                </div>
-                <p>fresho!</p>
-                <h5>Cucumber</h5>
-                <select>
-                    <option>1 Kg</option>
-                </select>
-                <div class="rate">
-                    <h5>Rs.44</h5>
-                    <p style="text-decoration: line-through; font-size: 13px;">Rs.64.38</p>
-                </div>
-                <div class="btn">
-                    <i class="fa-sharp fa-regular fa-bookmark"></i>
-                    <button>Add</button>
-                </div>
-            </div>
-            <div class="mysmartbasket-col">
-                <div class="img">
-                    <p class="offer">32% OFF</p>
-                    <img src="./Images/coriender.jpg">
-                </div>
-                <p>fresho!</p>
-                <h5>Coriender Leaves</h5>
-                <select>
-                    <option>1 Kg</option>
-                </select>
-                <div class="rate">
-                    <h5>Rs.44</h5>
-                    <p style="text-decoration: line-through; font-size: 13px;">Rs.64.38</p>
-                </div>
-                <div class="btn">
-                    <i class="fa-sharp fa-regular fa-bookmark"></i>
-                    <button>Add</button>
+                <div class="mysmartbasket-col">
+                    <div class="img">
+                        <p class="offer">32% OFF</p>
+                        <img src="./Images/onion.jpg">
+                    </div>
+                    <p>fresho!</p>
+                    <h5>Onion</h5>
+                    <select>
+                        <option>1 Kg</option>
+                    </select>
+                    <div class="rate">
+                        <h5>Rs.44</h5>
+                        <p style="text-decoration: line-through; font-size: 13px;">Rs.64.38</p>
+                    </div>
+                    <div class="btn">
+                        <i class="fa-sharp fa-regular fa-bookmark"></i>
+                        <button>Add</button>
+                    </div>
                 </div>
             </div>
         </div>
 
-        
-        <div class="mysmartbasket-row" id="mysmartbasket-row-2">
-
-            <div class="mysmartbasket-col">
-                <div class="img">
-                    <p class="offer">20% OFF</p>
-                    <img src="./Images/garlic.jpg">
-                </div>
-                <p>fresho!</p>
-                <h5>garlic</h5>
-                <select>
-                    <option>1 Kg</option>
-                </select>
-                <div class="rate">
-                    <h5>Rs.44</h5>
-                    <p style="text-decoration: line-through; font-size: 13px;">Rs.64.38</p>
-                </div>
-                <div class="btn">
-                    <i class="fa-sharp fa-regular fa-bookmark"></i>
-                    <button>Add</button>
-                </div>
-            </div>
-            <div class="mysmartbasket-col">
-                <div class="img">
-                    <p class="offer">32% OFF</p>
-                    <img src="./Images/ginger.jpg">
-                </div>
-                <p>fresho!</p>
-                <h5>Ginger</h5>
-                <select>
-                    <option>1 Kg</option>
-                </select>
-                <div class="rate">
-                    <h5>Rs.93</h5>
-                    <p style="text-decoration: line-through; font-size: 13px;">Rs.116.38</p>
-                </div>
-                <div class="btn">
-                    <i class="fa-sharp fa-regular fa-bookmark"></i>
-                    <button>Add</button>
-                </div>
-            </div>
-            <div class="mysmartbasket-col">
-                <div class="img">
-                    <p class="offer">32% OFF</p>
-                    <img src="./Images/lemon.jpg">
-                </div>
-                <p>fresho!</p>
-                <h5>Lemon</h5>
-                <select>
-                    <option>1 Kg</option>
-                </select>
-                <div class="rate">
-                    <h5>Rs.44</h5>
-                    <p style="text-decoration: line-through; font-size: 13px;">Rs.64.38</p>
-                </div>
-                <div class="btn">
-                    <i class="fa-sharp fa-regular fa-bookmark"></i>
-                    <button>Add</button>
-                </div>
-            </div>
-            <div class="mysmartbasket-col">
-                <div class="img">
-                    <p class="offer">32% OFF</p>
-                    <img src="./Images/onion.jpg">
-                </div>
-                <p>fresho!</p>
-                <h5>Onion</h5>
-                <select>
-                    <option>1 Kg</option>
-                </select>
-                <div class="rate">
-                    <h5>Rs.44</h5>
-                    <p style="text-decoration: line-through; font-size: 13px;">Rs.64.38</p>
-                </div>
-                <div class="btn">
-                    <i class="fa-sharp fa-regular fa-bookmark"></i>
-                    <button>Add</button>
-                </div>
-            </div>
-        </div>
-    </div>
 
 
-       
 
 
 
@@ -282,340 +298,623 @@
             <h2>Best Sellers</h2>
             <div class="viewall">
                 <a style="text-decoration: underline;">Show More</a>
-                <button class="prevbtn" id="prevbestsellers"><</button>
-                <button class="nextbtn" id="nextbestsellers">></button>
+                <button class="prevbtn" id="prevbestsellers">
+                    < </button>
+                        <button class="nextbtn" id="nextbestsellers">></button>
             </div>
-           
+
         </div>
         <div class="mysmartbasket-rows">
 
-        <div class="mysmartbasket-row" id="bestsellers-row-1">
+            <div class="mysmartbasket-row" id="bestsellers-row-1">
 
-            <div class="mysmartbasket-col">
-                <div class="img">
-                    <p class="offer">20% OFF</p>
-                    <img src="./Images/wipesgreen.jpg">
+                <div class="mysmartbasket-col">
+                    <div class="img">
+                        <p class="offer">20% OFF</p>
+                        <img src="./Images/wipesgreen.jpg">
+                    </div>
+                    <p>Bigbasket</p>
+                    <h5>Baby wipes-fresh,No Parabon ,Double</h5>
+                    <select>
+                        <option>4* 80 pcs (multipack)</option>
+                    </select>
+                    <div class="rate">
+                        <h5>Rs.44</h5>
+                        <p style="text-decoration: line-through; font-size: 13px;">Rs.64.38</p>
+                    </div>
+                    <div class="btn">
+                        <i class="fa-sharp fa-regular fa-bookmark"></i>
+                        <button>Add</button>
+                    </div>
                 </div>
-                <p>Bigbasket</p>
-                <h5>Baby wipes-fresh,No Parabon ,Double</h5>
-                <select>
-                    <option>4* 80 pcs (multipack)</option>
-                </select>
-                <div class="rate">
-                    <h5>Rs.44</h5>
-                    <p style="text-decoration: line-through; font-size: 13px;">Rs.64.38</p>
+                <div class="mysmartbasket-col">
+                    <div class="img">
+                        <p class="offer">32% OFF</p>
+                        <img src="./Images/pambers.jpg">
+                    </div>
+                    <p>Pambers</p>
+                    <h5>Babywipes - with aloe</h5>
+                    <select>
+                        <option>72pcs</option>
+                    </select>
+                    <div class="rate">
+                        <h5>Rs.93</h5>
+                        <p style="text-decoration: line-through; font-size: 13px;">Rs.116.38</p>
+                    </div>
+                    <div class="btn">
+                        <i class="fa-sharp fa-regular fa-bookmark"></i>
+                        <button>Add</button>
+                    </div>
                 </div>
-                <div class="btn">
-                    <i class="fa-sharp fa-regular fa-bookmark"></i>
-                    <button>Add</button>
+                <div class="mysmartbasket-col">
+                    <div class="img">
+                        <p class="offer">32% OFF</p>
+                        <img src="./Images/jansons.jpg">
+                    </div>
+                    <p>Jansons baby </p>
+                    <h5>Skin Care Wipes with aloe</h5>
+                    <select>
+                        <option>72pcs</option>
+                    </select>
+                    <div class="rate">
+                        <h5>Rs.44</h5>
+                        <p style="text-decoration: line-through; font-size: 13px;">Rs.64.38</p>
+                    </div>
+                    <div class="btn">
+                        <i class="fa-sharp fa-regular fa-bookmark"></i>
+                        <button>Add</button>
+                    </div>
+                </div>
+                <div class="mysmartbasket-col">
+                    <div class="img">
+                        <p class="offer">32% OFF</p>
+                        <img src="/Images/littles.jpg">
+                    </div>
+                    <p>littles</p>
+                    <h5>Baby wipes with aloevera ,jojoba oil</h5>
+                    <select>
+                        <option>3 * 80 pcs (multipack)</option>
+                    </select>
+                    <div class="rate">
+                        <h5>Rs.44</h5>
+                        <p style="text-decoration: line-through; font-size: 13px;">Rs.64.38</p>
+                    </div>
+                    <div class="btn">
+                        <i class="fa-sharp fa-regular fa-bookmark"></i>
+                        <button>Add</button>
+                    </div>
                 </div>
             </div>
-            <div class="mysmartbasket-col">
-                <div class="img">
-                    <p class="offer">32% OFF</p>
-                    <img src="./Images/pambers.jpg">
+
+
+            <div class="mysmartbasket-row" id="bestsellers-row-2">
+
+                <div class="mysmartbasket-col">
+                    <div class="img">
+                        <p class="offer">20% OFF</p>
+                        <img src="./Images/cherryblossom.jpg">
+                    </div>
+                    <p>Bigbasket</p>
+                    <h5>Baby wipes Cherry Blossom No Parabon</h5>
+                    <select>
+                        <option>3 * 80 Pcs (multi pack)</option>
+                    </select>
+                    <div class="rate">
+                        <h5>Rs.44</h5>
+                        <p style="text-decoration: line-through; font-size: 13px;">Rs.64.38</p>
+                    </div>
+                    <div class="btn">
+                        <i class="fa-sharp fa-regular fa-bookmark"></i>
+                        <button>Add</button>
+                    </div>
                 </div>
-                <p>Pambers</p>
-                <h5>Babywipes - with aloe</h5>
-                <select>
-                    <option>72pcs</option>
-                </select>
-                <div class="rate">
-                    <h5>Rs.93</h5>
-                    <p style="text-decoration: line-through; font-size: 13px;">Rs.116.38</p>
+                <div class="mysmartbasket-col">
+                    <div class="img">
+                        <p class="offer">32% OFF</p>
+                        <img src="./Images/jansons.jpg">
+                    </div>
+                    <p>jansons baby!</p>
+                    <h5>Jansons baby skin care wipes</h5>
+                    <select>
+                        <option>72pcs</option>
+                    </select>
+                    <div class="rate">
+                        <h5>Rs.93</h5>
+                        <p style="text-decoration: line-through; font-size: 13px;">Rs.116.38</p>
+                    </div>
+                    <div class="btn">
+                        <i class="fa-sharp fa-regular fa-bookmark"></i>
+                        <button>Add</button>
+                    </div>
                 </div>
-                <div class="btn">
-                    <i class="fa-sharp fa-regular fa-bookmark"></i>
-                    <button>Add</button>
+                <div class="mysmartbasket-col">
+                    <div class="img">
+                        <p class="offer">32% OFF</p>
+                        <img src="./Images/pambers.jpg">
+                    </div>
+                    <p>pambers</p>
+                    <h5>Baby wipes with aloevera</h5>
+                    <select>
+                        <option>72pcs</option>
+                    </select>
+                    <div class="rate">
+                        <h5>Rs.44</h5>
+                        <p style="text-decoration: line-through; font-size: 13px;">Rs.64.38</p>
+                    </div>
+                    <div class="btn">
+                        <i class="fa-sharp fa-regular fa-bookmark"></i>
+                        <button>Add</button>
+                    </div>
                 </div>
-            </div>
-            <div class="mysmartbasket-col">
-                <div class="img">
-                    <p class="offer">32% OFF</p>
-                    <img src="./Images/jansons.jpg">
-                </div>
-                <p>Jansons baby </p>
-                <h5>Skin Care Wipes with aloe</h5>
-                <select>
-                    <option>72pcs</option>
-                </select>
-                <div class="rate">
-                    <h5>Rs.44</h5>
-                    <p style="text-decoration: line-through; font-size: 13px;">Rs.64.38</p>
-                </div>
-                <div class="btn">
-                    <i class="fa-sharp fa-regular fa-bookmark"></i>
-                    <button>Add</button>
-                </div>
-            </div>
-            <div class="mysmartbasket-col">
-                <div class="img">
-                    <p class="offer">32% OFF</p>
-                    <img src="/Images/littles.jpg">
-                </div>
-                <p>littles</p>
-                <h5>Baby wipes with aloevera ,jojoba oil</h5>
-                <select>
-                    <option>3 * 80 pcs (multipack)</option>
-                </select>
-                <div class="rate">
-                    <h5>Rs.44</h5>
-                    <p style="text-decoration: line-through; font-size: 13px;">Rs.64.38</p>
-                </div>
-                <div class="btn">
-                    <i class="fa-sharp fa-regular fa-bookmark"></i>
-                    <button>Add</button>
+                <div class="mysmartbasket-col">
+                    <div class="img">
+                        <p class="offer">32% OFF</p>
+                        <img src="/Images/bgwipes.jpg">
+                    </div>
+                    <p>bodyguard</p>
+                    <h5> BodyGuard wipes with Vitamin E and aloevera</h5>
+                    <select>
+                        <option>3 * 80 pcs (Multipack)</option>
+                    </select>
+                    <div class="rate">
+                        <h5>Rs.44</h5>
+                        <p style="text-decoration: line-through; font-size: 13px;">Rs.64.38</p>
+                    </div>
+                    <div class="btn">
+                        <i class="fa-sharp fa-regular fa-bookmark"></i>
+                        <button>Add</button>
+                    </div>
                 </div>
             </div>
         </div>
 
-        
-        <div class="mysmartbasket-row" id="bestsellers-row-2">
+    </section>
 
-            <div class="mysmartbasket-col">
-                <div class="img">
-                    <p class="offer">20% OFF</p>
-                    <img src="./Images/cherryblossom.jpg">
-                </div>
-                <p>Bigbasket</p>
-                <h5>Baby wipes Cherry Blossom No Parabon</h5>
-                <select>
-                    <option>3 * 80 Pcs (multi pack)</option>
-                </select>
-                <div class="rate">
-                    <h5>Rs.44</h5>
-                    <p style="text-decoration: line-through; font-size: 13px;">Rs.64.38</p>
-                </div>
-                <div class="btn">
-                    <i class="fa-sharp fa-regular fa-bookmark"></i>
-                    <button>Add</button>
-                </div>
-            </div>
-            <div class="mysmartbasket-col">
-                <div class="img">
-                    <p class="offer">32% OFF</p>
-                    <img src="./Images/jansons.jpg">
-                </div>
-                <p>jansons baby!</p>
-                <h5>Jansons baby skin care wipes</h5>
-                <select>
-                    <option>72pcs</option>
-                </select>
-                <div class="rate">
-                    <h5>Rs.93</h5>
-                    <p style="text-decoration: line-through; font-size: 13px;">Rs.116.38</p>
-                </div>
-                <div class="btn">
-                    <i class="fa-sharp fa-regular fa-bookmark"></i>
-                    <button>Add</button>
-                </div>
-            </div>
-            <div class="mysmartbasket-col">
-                <div class="img">
-                    <p class="offer">32% OFF</p>
-                    <img src="./Images/pambers.jpg">
-                </div>
-                <p>pambers</p>
-                <h5>Baby wipes with aloevera</h5>
-                <select>
-                    <option>72pcs</option>
-                </select>
-                <div class="rate">
-                    <h5>Rs.44</h5>
-                    <p style="text-decoration: line-through; font-size: 13px;">Rs.64.38</p>
-                </div>
-                <div class="btn">
-                    <i class="fa-sharp fa-regular fa-bookmark"></i>
-                    <button>Add</button>
-                </div>
-            </div>
-            <div class="mysmartbasket-col">
-                <div class="img">
-                    <p class="offer">32% OFF</p>
-                    <img src="/Images/bgwipes.jpg">
-                </div>
-                <p>bodyguard</p>
-                <h5> BodyGuard wipes with Vitamin E and aloevera</h5>
-                <select>
-                    <option>3 * 80 pcs (Multipack)</option>
-                </select>
-                <div class="rate">
-                    <h5>Rs.44</h5>
-                    <p style="text-decoration: line-through; font-size: 13px;">Rs.64.38</p>
-                </div>
-                <div class="btn">
-                    <i class="fa-sharp fa-regular fa-bookmark"></i>
-                    <button>Add</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-</section>
-       
 
 
 
     <section class="topofferscontainer">
+        <h3>Top Offers</h3>
+        <div class="topoffersall">
+            <div class="topoffers">
+                <div class="topoffers1">
+                    <div>
+                        DEALS OF
+                    </div>
+                    <div class="topoffers2">
+                        THE WEEK
+                        <p style="font-size: 10px;">View offers ></p>
+                    </div>
+                </div>
 
-    <div class="topoffers">
-        <div class="topoffers1">
-            <div>
-  DEALS OF
             </div>
-            <div class="topoffers2">
-THE WEEK
-<p style="font-size: 10px;">View offers ></p>
+            <div class="topoffers">
+                <div class="topoffers1">
+                    <div>
+                        BIG PACK
+                    </div>
+                    <div class="topoffers2">
+                        BIGGER DISCOUNTS
+                        <p style="font-size: 10px;">View offers ></p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="topoffers">
+                <div class="topoffers1">
+                    <div>
+                        COMBOS
+                    </div>
+                    <div class="topoffers2">
+                        YOU CAN'T MISS
+                        <p style="font-size: 10px;">View offers ></p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="topoffers">
+                <div class="topoffers1">
+                    <div>
+                        THE
+                    </div>
+                    <div class="topoffers2">
+                        30Rs CORNER
+                        <p style="font-size: 10px;">View offers ></p>
+                    </div>
+                </div>
+
             </div>
         </div>
+    </section>
 
-    </div>
-    <div class="topoffers">
-        <div class="topoffers1">
-            <div>
-  BIG PACK
-            </div>
-            <div class="topoffers2">
-BIGGER DISCOUNTS
-<p style="font-size: 10px;">View offers ></p>
-            </div>
-        </div>
 
-    </div>
-    <div class="topoffers">
-        <div class="topoffers1">
-            <div>
- COMBOS
+    <section class="fruitsandveg">
+        <h3>Fruits and Vegetables</h3>
+        <div class="fruitsandveg-offers">
+            <div class="fruitsandveg-offer">
+                <img src="./Images/freshsruits.jpg">
+                <p>Fresh Vegetables</p>
+                <h5>MIN 27% OFF</h5>
             </div>
-            <div class="topoffers2">
-YOU CAN'T MISS
-<p style="font-size: 10px;">View offers ></p>
+            <div class="fruitsandveg-offer">
+                <img src="./Images/freshfruits1.jpg">
+                <p>Fresh Fruits</p>
+                <h5>MIN 27% OFF</h5>
             </div>
-        </div>
-
-    </div>
-    <div class="topoffers">
-        <div class="topoffers1">
-            <div>
- THE
+            <div class="fruitsandveg-offer">
+                <img src="./Images/cutfruits.jpg">
+                <p>Cuts and Exotics</p>
+                <h5>MIN 27% OFF</h5>
             </div>
-            <div class="topoffers2">
-30Rs CORNER
-<p style="font-size: 10px;">View offers ></p>
+            <div class="fruitsandveg-offer">
+                <img src="./Images/herbs.jpg">
+                <p>Herbs and Seasoning</p>
+                <h5>MIN 27% OFF</h5>
             </div>
         </div>
+    </section>
 
-    </div>
-</section>
+    <section class="dailystaples">
+        <h3>Your Daily Staples</h3>
+        <div class="staples-offers">
+            <div class="staples-offer">
+                <img src="./Images/atta.jpg">
+                <p>Atta & Flour</p>
+
+            </div>
+            <div class="staples-offer">
+                <img src="./Images/rice.jpg">
+                <p>Rice and Rice Products</p>
+
+            </div>
+            <div class="staples-offer">
+                <img src="./Images/dals.jpg">
+                <p>Dals and Pulses</p>
+
+            </div>
+            <div class="staples-offer">
+                <img src="./Images/oil.jpg">
+                <p>Cooking Oil and Ghee</p>
+
+            </div>
+            <div class="staples-offer">
+                <img src="./Images/dryfruits.jpg">
+                <p>Dry Fruits</p>
+
+            </div>
+            <div class="staples-offer">
+                <img src="./Images/sugar.jpg">
+                <p>Salt Sugar and jaggery</p>
+
+            </div>
 
 
-<section class="fruitsandveg">
-    <h3>Fruits and Vegetables</h3>
-    <div class="fruitsandveg-offers">
-        <div class="fruitsandveg-offer">
-            <img src="./Images/freshsruits.jpg">
-            <p>Fresh Vegetables</p>
-            <h5>MIN 27% OFF</h5>
+
+
+
         </div>
-        <div  class="fruitsandveg-offer">
-            <img src="./Images/freshfruits1.jpg">
-            <p>Fresh Fruits</p>
-            <h5>MIN 27% OFF</h5>
+    </section>
+
+    <section class="beverages">
+        <h3>Beverages</h3>
+        <div class="beverages-offers">
+            <div class="beverages-offer">
+                <img src="./Images/healthydrinks.jpg">
+                <p>Health Drinks and Supplement</p>
+                <h5>UPTO 20% OFF</h5>
+            </div>
+            <div class="beverages-offer">
+                <img src="./Images/teapackets.jpg">
+                <p>Tea & Coffee</p>
+                <h5>UPTO 40% OFF</h5>
+            </div>
+            <div class="beverages-offer">
+                <img src="./Images/soya.jpg">
+                <p>Flavoured and Soya Milk</p>
+                <h5>UPTO 30% OFF</h5>
+            </div>
+            <div class="beverages-offer">
+                <img src="./Images/juice.jpg">
+                <p>Juices</p>
+                <h5>UPTO 30% OFF</h5>
+            </div>
+            <div class="beverages-offer">
+                <img src="./Images/energy.jpg">
+                <p>Energy Drink </p>
+                <h5>UPTO 15% OFF</h5>
+            </div>
+            <div class="beverages-offer">
+                <img src="./Images/softdrinks.jpg">
+                <p>Soft Drink</p>
+                <h5>UPTO 15% OFF</h5>
+            </div>
+
         </div>
-        <div  class="fruitsandveg-offer">
-            <img src="./Images/cutfruits.jpg">
-            <p>Cuts and Exotics</p>
-            <h5>MIN 27% OFF</h5>
+    </section>
+
+
+    <section class="snacksstore">
+        <h3>Snacks Store</h3>
+        <div class="snacksstore-offers">
+            <div class="snacksstore-offer">
+                <img src="./Images/chai1.jpg">
+                <p>Chai Time Snacks</p>
+                <h5>UPTO 50% OFF</h5>
+            </div>
+            <div class="snacksstore-offer">
+                <img src="./Images/kellogs.jpg">
+                <p>Morning Starters</p>
+                <h5>UPTO 50% OFF</h5>
+            </div>
+            <div class="snacksstore-offer">
+                <img src="./Images/pasta.jpg">
+                <p>Pasta Sauces & more</p>
+                <h5>UPTO 40% OFF</h5>
+            </div>
+            <div class="snacksstore-offer">
+                <img src="./Images/sweetcraving.jpg">
+                <p>Sweet Craving</p>
+                <h5>UPTO 40% OFF</h5>
+            </div>
         </div>
-        <div  class="fruitsandveg-offer">
-            <img src="./Images/herbs.jpg">
-            <p>Herbs and Seasoning</p>
-            <h5>MIN 27% OFF</h5>
+    </section>
+
+
+    <section class="cleaning">
+        <h3>Cleaning & Household</h3>
+        <div class="cleaning-offers">
+            <div class="cleaning-offer">
+                <img src="./Images/cleaners.jpg">
+                <p>Cleaners & Disinfectants</p>
+                <h5>UPTO 40% OFF</h5>
+            </div>
+            <div class="cleaning-offer">
+                <img src="./Images/surf.jpg">
+                <p>Detergents & Fabric Care</p>
+                <h5>UPTO 50% OFF</h5>
+            </div>
+            <div class="cleaning-offer">
+                <img src="./Images/garbagebags.jpg">
+                <p>Disposables & Garbage Bags</p>
+                <h5>UPTO 25% OFF</h5>
+            </div>
+            <div class="cleaning-offer">
+                <img src="./Images/odonil.jpg">
+                <p>Freshners & Repellants</p>
+                <h5>UPTO 40% OFF</h5>
+            </div>
         </div>
-    </div>
-</section>
-
-<section class="dailystaples">
-    <h3>Your Daily Staples</h3>
-    <div class="staples-offers">
-    <div class="staples-offer">
-        <img src="./Images/atta.jpg">
-        <p>Atta & Flour</p>
-
-    </div>
-    <div class="staples-offer">
-        <img src="./Images/rice.jpg">
-        <p>Rice and Rice Products</p>
-
-    </div>
-    <div class="staples-offer">
-        <img src="./Images/dals.jpg">
-        <p>Dals and Pulses</p>
-
-    </div>
-    <div class="staples-offer">
-        <img src="./Images/oil.jpg">
-        <p>Cooking Oil and Ghee</p>
-
-    </div>
-    <div class="staples-offer">
-        <img src="./Images/dryfruits.jpg">
-        <p>Dry Fruits</p>
-
-    </div>
-    <div class="staples-offer">
-        <img src="./Images/sugar.jpg">
-        <p>Salt Sugar and jaggery</p>
-
-    </div>
+    </section>
 
 
+    <section class="beauty">
+        <h3>Beauty & Hygiene</h3>
+        <div class="beauty-offers">
+            <div class="beauty-offer">
+                <img src="./Images/makeup.jpg">
+                <p>MakeUp Show Stoppers</p>
+                <h5>UPTO 60% OFF</h5>
+            </div>
+            <div class="beauty-offer">
+                <img src="./Images/moistorisers.jpg">
+                <p>Moisteraiser and Serums</p>
+                <h5>UPTO 40% OFF</h5>
+            </div>
+            <div class="beauty-offer">
+                <img src="./Images/perfumes.jpg">
+                <p>Scensationable Perfumes</p>
+                <h5>UPTO 50% OFF</h5>
+            </div>
+            <div class="beauty-offer">
+                <img src="./Images/shaving.jpg">
+                <p>Shaving Care</p>
+                <h5>UPTO 50% OFF</h5>
+            </div>
+            <div class="beauty-offer">
+                <img src="./Images/spray.jpg">
+                <p></p>
+                <h5>UPTO 30% OFF</h5>
+            </div>
+            <div class="beauty-offer">
+                <img src="./Images/axe.jpg">
+                <p>Big Pack Bigger Saving</p>
+                <h5>UPTO 50% OFF</h5>
+            </div>
 
-
-
-</div>
-</section>
-
-<section class="beverages">
-    <h5>Beverages</h5>
-    <div class="beverages-offers">
-        <div class="beverages-offer">
-            <img src="./Images/healthydrinks.jpg">
-            <p>Health Drinks and Supplement</p>
-            <h5>UPTO 20% OFF</h5>
         </div>
-        <div  class="beverages-offer">
-            <img src="./Images/tea.jpg">
-            <p>Tea & Coffee</p>
-            <h5>UPTO 40% OFF</h5>
+    </section>
+
+
+    <section class="kitchen">
+        <h3>Home & Kitchen</h3>
+        <div class="kitchen-offers">
+            <div class="kitchen-offer">
+                <img src="./Images/bottles.jpg">
+                <p></p>
+                <h5>Under Rs.99</h5>
+            </div>
+            <div class="kitchen-offer">
+                <img src="./Images/broom.jpg">
+                <p></p>
+                <h5>Rs.100 - Rs.199</h5>
+            </div>
+            <div class="kitchen-offer">
+                <img src="./Images/cooker.jpg">
+                <p>Presser Cooker</p>
+                <h5>MIN 15% OFF</h5>
+            </div>
+            <div class="kitchen-offer">
+                <img src="./Images/stationary.jpg">
+                <p>Stationary Store</p>
+                <h5>Staring At Rs.19</h5>
+            </div>
+            <div class="kitchen-offer">
+                <img src="./Images/storage.jpg">
+                <p>Storage Containers</p>
+                <h5>Staring At Rs.79</h5>
+            </div>
+            <div class="kitchen-offer">
+                <img src="./Images/cleaningitem.jpg">
+                <p>Cleaning Essentials</p>
+                <h5>Staring At Rs.99</h5>
+            </div>
+
         </div>
-        <div  class="beverages-offer">
-            <img src="./Images/soya.jpg">
-            <p>Flavoured and Soya Milk</p>
-            <h5>UPTO 30% OFF</h5>
+    </section>
+
+    <section class="caroselsection">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="image">
+                        <div class="image-name">
+                            <h1>Protein Power-Up</h1>
+                            <p>Supplements to make your Workout Better</p>
+                            <h2>UPTO <span>50%</span>OFFER</h2>
+                            <button>SHOP NOW ></button>
+                        </div>
+                        <div class="image-pic">
+                            <img src="./Images/proteinpowerup.jpg">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="image">
+                        <div class="image-name">
+                            <h1>Fur-Baby Feast</h1>
+                            <p>Yummy Foods to keep your Pets Healthy</p>
+                            <h2>UPTO <span>50%</span>OFFER</h2>
+                            <button>SHOP NOW ></button>
+                        </div>
+                        <div class="image-pic">
+                            <img src="./Images/pedigree.jpg">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+
+                    <div class="image">
+                        <div class="image-name">
+                            <h1>Tea-Time Bakes</h1>
+                            <p>Bakery Cakes and More</p>
+                            <h2>UPTO <span>50%</span>OFFER</h2>
+                            <button>SHOP NOW ></button>
+                        </div>
+                        <div class="image-pic">
+                            <img src="./Images/teatimebakes.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="image">
+                        <div class="image-name">
+                            <h1>Gentle Baby Must -Haves</h1>
+                            <p>Diaper Baby Powder and More</p>
+                            <h2>UPTO <span>40%</span>OFFER</h2>
+                            <button>SHOP NOW ></button>
+                        </div>
+                        <div class="image-pic">
+                            <img src="./Images/babyproducts.jpg">
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+
+
+
         </div>
-        <div  class="beverages-offer">
-            <img src="./Images/juice.jpg">
-            <p>Juices</p>
-            <h5>UPTO 30% OFF</h5>
+        <button class="next">
+            < </button>
+                <button class="prev">></button>
+    </section>
+
+
+    <section class="about">
+        <h5>bigbasket – online grocery store</h5>
+        <p>Did you ever imagine that the freshest of fruits and vegetables, top-quality pulses and food grains, dairy
+            products, and hundreds of branded items could be handpicked and delivered to your home, all at the click of
+            a button? In today's fast-paced world, bigbasket.com, India's pioneering online grocery store, continues to
+            bring a staggering array of over 40,000 products from more than 1,000 brands to the doorsteps of over 10
+            million satisfied customers. From essential household cleaning products to the latest beauty and makeup
+            trends, bigbasket remains your one-stop shop for daily needs.
+
+        </p>
+        <p>
+            In these times, we've eliminated the stress associated with shopping for daily essentials. You can now
+            effortlessly order all your household products and groceries online. Plus, the added convenience of finding
+            all your requirements at a single source, coupled with substantial savings, demonstrates that bigbasket,
+            India's largest online supermarket, has transformed the way we shop for groceries. Online grocery shopping
+            has become second nature. And when it comes to freshness, whether it's fruits and vegetables or dairy and
+            meat, we've got you covered! Easily obtain fresh eggs, meat, fish, and more with just a few clicks.
+        </p>
+
+        We now serve 300+ cities and towns across India and ensure swift delivery times, guaranteeing that all your
+        groceries, snacks and branded foods reach you on time.
+
+        <p>
+            Slotted Delivery: Choose the most convenient delivery slot to receive your groceries, ranging from early
+            morning delivery for early birds to late-night delivery for those on the night shift. bigbasket caters to
+            every schedule.
+        </p>
+        <p>
+            Instant delivery from bbnow: In response to the ever-increasing demand for convenience, bbnow by bigbasket
+            offers lightning-fast grocery delivery, ensuring that your essentials are at your doorstep within 15-30
+            minutes. Our quick delivery service has revolutionized the way you shop for groceries. Choose from 5000+
+            grocery essentials. bbnow is available only in select cities.
+        </p>
+        <p>
+            Whether it's a last-minute dinner party or you simply need something urgently, we've got you covered. This
+            service exemplifies our commitment to providing you with not just the widest range of products but also the
+            fastest and most efficient shopping experience, making bigbasket.com the go-to destination for all your
+            immediate grocery needs.
+        </p>
+    </section>
+
+    <footer>
+
+        <div>
+            <ul>
+                <li><a>Big Basket</a></li>
+                <li><a>About</a></li>
+                <li><a>Become A bigbasket Rider</a></li>
+                <li><a>In News</a></li>
+                <li><a>Green bigbasket</a></li>
+                <li><a>Privacy Policy</a></li>
+            </ul>
         </div>
-        <div  class="beverages-offer">
-            <img src="./Images/energy.jpg">
-            <p>Energy Drink </p>
-            <h5>UPTO 15% OFF</h5>
-        </div>
-        <div  class="beverages-offer">
-            <img src="./Images/softdrinks.jpg">
-            <p>Soft Drink</p>
-            <h5>UPTO 15% OFF</h5>
-        </div>
-      
-    </div>
-</section>
+    </footer>
+
+
+
+
 </body>
 <script src="script.js"></script>
+<!-- Bootstrap -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
 
+<!-- AOS Animation -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+      </script>
 </html>
