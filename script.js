@@ -39,3 +39,11 @@ prevbestsellers.addEventListener("click",function(){
     bestsellers1.style.display="block";
     bestsellers1.style.display="flex";
   });
+
+  var shopdd=document.getElementById("nav2-shopdd");
+  
+  var shopping=document.getElementById("shopping");
+  shopping.addEventListener("click",function(){
+
+   shopdd.style.display="block";
+  });
