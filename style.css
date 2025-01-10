@@ -170,7 +170,7 @@ margin-bottom: 0px;
 }
 
 .nav2-list-dd {
-    position: relative;
+ 
    
 
     padding-right: 40px;
@@ -182,15 +182,15 @@ margin-bottom: 0px;
     z-index: 1;
     position: absolute;
     font-size: 18px;
-    top: 47px;
+    top: 115px;
     list-style-type: none;
     background-color: white;
     padding-left: 10px;
     box-shadow: 2px 10px 10px 2px grey;
     padding-right: 2px;
+left: 1000px;
 
-    display: none;
-
+display: none;
 
 
 }

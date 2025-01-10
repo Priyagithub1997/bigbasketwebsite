@@ -47,3 +47,12 @@ prevbestsellers.addEventListener("click",function(){
 
    shopdd.style.display="block";
   });
+
+  var dropdown=document.getElementById("dropdown");
+  
+  var showdropdown=document.getElementById("showdropdown");
+  dropdown.addEventListener("click",function(){
+
+   showdropdown.style.display="block";
+  });
+
