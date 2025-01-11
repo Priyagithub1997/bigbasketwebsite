@@ -23,7 +23,7 @@ nav {
     box-shadow: 0px 2px 2px grey;
     padding-top: 5px;
     position: sticky;
-    top: -60px;
+    top: -115px;
     z-index: 1;
     background-color: white;
     width: 100%;
@@ -231,10 +231,56 @@ nav {
 }
 
 
+
+.newnav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    border-top: 5px solid green;
+    display: none;
+    padding: 5px;
+
+
+}
+
+.newnav img {
+    width: 50px;
+    height: 50px;
+}
+
+.newnav .divinput {
+    width: 600px;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+.electronics:hover .nav2-shopcategory-row{
+    display: flex;
+
+}
+
+.divinput input {
+    margin-left: 30px;
+    border: none;
+    outline: none;
+
+}
+
+.divinput i {
+    padding: 10px;
+}
+
+.selectlocation {
+    background-color: rgb(241, 238, 238);
+    border-radius: 10px;
+    padding-top: 15px;
+}
+
 .smartbasket-offers {
     border-left: 1px solid rgb(172, 169, 169);
     display: flex;
-    gap: 20px;
+    gap: 10px;
 
 
 
@@ -292,8 +338,11 @@ nav {
 
 .mysmartbasket-rows {
     display: flex;
-    overflow: hidden;
-    gap: 100px;
+    width: 100%;
+
+    margin: 20px auto;
+
+
 
 }
 
@@ -369,7 +418,7 @@ nav {
     display: flex;
     justify-content: space-around;
     gap: 10px;
-    
+
 }
 
 .mysmartbasket-col>.btn i {
@@ -840,7 +889,7 @@ p {
 
 .image {
     display: flex;
-   
+
     background-color: rgb(233, 220, 233);
     border-radius: 20px;
     justify-content: space-around;
@@ -1023,12 +1072,12 @@ ul>li {
 
     cursor: pointer;
     background-color: lightgray;
-
+border-radius: 10px;
 }
 
 .col2>ul li:hover {
 
-
+    border-radius: 10px;
     cursor: pointer;
     background-color: white;
 }
@@ -1036,6 +1085,7 @@ ul>li {
 .col3>ul li:hover {
     cursor: pointer;
     background-color: lightgray;
+    border-radius: 10px;
 }
 
 .fashion1,
@@ -1065,16 +1115,31 @@ ul>li {
 .cut,
 .exo,
 .atta1,
-.dal {
+.dal ,
+.bodymessagers{
     display: none;
 }
 
-.electronics:hover .electronics1 {
+ .electronics:hover .electronics1 {
     display: block;
+  
 
 }
 
-.electronics:hover .ad {
+.electronics1 .audio:hover .electronics-earbuds{
+    display: block;
+    
+}
+.electronics1 .grooming:hover .bodymessagers{
+    display: block;
+}
+
+.electronics1 .grooming:hover .electronics-earbuds{
+    display: none;
+
+}
+
+/* .electronics:hover .ad {
     display: block;
     background-color: lightgray;
     cursor: pointer;
@@ -1084,4 +1149,4 @@ ul>li {
     display: block;
     background-color: lightgray;
     cursor: pointer;
-}
+} */
